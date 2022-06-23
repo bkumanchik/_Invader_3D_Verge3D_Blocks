@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1211.4254382595245" scrolly="894.6984637118903" scale="0.5387568978066389">
+  <tab name="main" type="MainTab" active="true" scrollx="896.2704548094514" scrolly="505.0876556370295" scale="0.31006791028264996">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="5]:z}Pux*V1v[R8?,^oh" type="">score</variable>
       <variable id="0S8xSmIPXR,?MpVR;PD^" type="">game_over</variable>
@@ -299,97 +299,79 @@
                                                                                                                     </shadow>
                                                                                                                   </value>
                                                                                                                   <next>
-                                                                                                                    <block type="hide" id="+~34qfjY=XG=lV^!4_-U">
-                                                                                                                      <value name="VALUE">
-                                                                                                                        <shadow type="objectList" id="@PbKP!abR(hq{XKsbF^e">
-                                                                                                                          <field name="FIELDNAME">inv_shot</field>
+                                                                                                                    <block type="setObjTransform" id="bU?:TBzjP.LDcwp%rdi|">
+                                                                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                                                                                                                      <field name="MODE">position</field>
+                                                                                                                      <field name="OFFSET">FALSE</field>
+                                                                                                                      <value name="TARGETOBJ">
+                                                                                                                        <shadow type="objectList" id=")E#(gET6#BOsp=7CB(YP">
+                                                                                                                          <field name="FIELDNAME">invader_root</field>
                                                                                                                         </shadow>
                                                                                                                       </value>
+                                                                                                                      <value name="X">
+                                                                                                                        <block type="math_number" id="^IyHN/h6,AlqD//yWP!d">
+                                                                                                                          <field name="NUM">0</field>
+                                                                                                                        </block>
+                                                                                                                      </value>
+                                                                                                                      <value name="Y">
+                                                                                                                        <block type="math_number" id="M$^DKNPju7/g_k+rZ4(K">
+                                                                                                                          <field name="NUM">3.22</field>
+                                                                                                                        </block>
+                                                                                                                      </value>
                                                                                                                       <next>
-                                                                                                                        <block type="hide" id="_(XFp6iRFqr_XDw4y9pm">
-                                                                                                                          <value name="VALUE">
-                                                                                                                            <shadow type="objectList" id="2tuMmosE$Y|:O1iyp09p">
-                                                                                                                              <field name="FIELDNAME">shot</field>
+                                                                                                                        <block type="setObjTransform" id="dl[$RQxCmtsK?awg)Zw3">
+                                                                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                                                                                                                          <field name="MODE">position</field>
+                                                                                                                          <field name="OFFSET">FALSE</field>
+                                                                                                                          <value name="TARGETOBJ">
+                                                                                                                            <shadow type="objectList" id="ZZSKjMg-1amfUTLixcnl">
+                                                                                                                              <field name="FIELDNAME">turret_root</field>
                                                                                                                             </shadow>
                                                                                                                           </value>
+                                                                                                                          <value name="X">
+                                                                                                                            <block type="math_number" id="S0IxN?(|uHZAoSTR/|)1">
+                                                                                                                              <field name="NUM">0.098</field>
+                                                                                                                            </block>
+                                                                                                                          </value>
+                                                                                                                          <value name="Y">
+                                                                                                                            <block type="math_number" id="ly%0l+(I{O|p`7$Z]V;U">
+                                                                                                                              <field name="NUM">-2.96</field>
+                                                                                                                            </block>
+                                                                                                                          </value>
                                                                                                                           <next>
-                                                                                                                            <block type="setObjTransform" id="bU?:TBzjP.LDcwp%rdi|">
-                                                                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
-                                                                                                                              <field name="MODE">position</field>
-                                                                                                                              <field name="OFFSET">FALSE</field>
-                                                                                                                              <value name="TARGETOBJ">
-                                                                                                                                <shadow type="objectList" id=")E#(gET6#BOsp=7CB(YP">
-                                                                                                                                  <field name="FIELDNAME">invader_root</field>
-                                                                                                                                </shadow>
-                                                                                                                              </value>
-                                                                                                                              <value name="X">
-                                                                                                                                <block type="math_number" id="^IyHN/h6,AlqD//yWP!d">
-                                                                                                                                  <field name="NUM">0</field>
+                                                                                                                            <block type="controls_if" id="Kgwx?isx,2)UOdC;r;Z@">
+                                                                                                                              <value name="IF0">
+                                                                                                                                <block type="featureAvailable" id="=$oR-D,pz-3}Lu=4,]p|">
+                                                                                                                                  <field name="FEATURE">MOBILE</field>
                                                                                                                                 </block>
                                                                                                                               </value>
-                                                                                                                              <value name="Y">
-                                                                                                                                <block type="math_number" id="M$^DKNPju7/g_k+rZ4(K">
-                                                                                                                                  <field name="NUM">3.22</field>
-                                                                                                                                </block>
-                                                                                                                              </value>
-                                                                                                                              <next>
-                                                                                                                                <block type="setObjTransform" id="dl[$RQxCmtsK?awg)Zw3">
-                                                                                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
-                                                                                                                                  <field name="MODE">position</field>
-                                                                                                                                  <field name="OFFSET">FALSE</field>
-                                                                                                                                  <value name="TARGETOBJ">
-                                                                                                                                    <shadow type="objectList" id="ZZSKjMg-1amfUTLixcnl">
-                                                                                                                                      <field name="FIELDNAME">turret_root</field>
+                                                                                                                              <statement name="DO0">
+                                                                                                                                <block type="show" id="jU4LGBg^?XoMa3QQpoTm">
+                                                                                                                                  <value name="VALUE">
+                                                                                                                                    <shadow type="objectList" id=":!K1V,}E0G3qSxx48l[_">
+                                                                                                                                      <field name="FIELDNAME">button_fire</field>
                                                                                                                                     </shadow>
                                                                                                                                   </value>
-                                                                                                                                  <value name="X">
-                                                                                                                                    <block type="math_number" id="S0IxN?(|uHZAoSTR/|)1">
-                                                                                                                                      <field name="NUM">0.098</field>
-                                                                                                                                    </block>
-                                                                                                                                  </value>
-                                                                                                                                  <value name="Y">
-                                                                                                                                    <block type="math_number" id="ly%0l+(I{O|p`7$Z]V;U">
-                                                                                                                                      <field name="NUM">-2.96</field>
-                                                                                                                                    </block>
-                                                                                                                                  </value>
                                                                                                                                   <next>
-                                                                                                                                    <block type="controls_if" id="Kgwx?isx,2)UOdC;r;Z@">
-                                                                                                                                      <value name="IF0">
-                                                                                                                                        <block type="featureAvailable" id="=$oR-D,pz-3}Lu=4,]p|">
-                                                                                                                                          <field name="FEATURE">MOBILE</field>
-                                                                                                                                        </block>
+                                                                                                                                    <block type="show" id="H{wEtL`I|.8EDnKCn:nC">
+                                                                                                                                      <value name="VALUE">
+                                                                                                                                        <shadow type="objectList" id=".2ucK7Sv=@,=E?`Zh37|">
+                                                                                                                                          <field name="FIELDNAME">button_left</field>
+                                                                                                                                        </shadow>
                                                                                                                                       </value>
-                                                                                                                                      <statement name="DO0">
-                                                                                                                                        <block type="show" id="jU4LGBg^?XoMa3QQpoTm">
+                                                                                                                                      <next>
+                                                                                                                                        <block type="show" id="!7DdXNB4MG?[-RLeR4EM">
                                                                                                                                           <value name="VALUE">
-                                                                                                                                            <shadow type="objectList" id=":!K1V,}E0G3qSxx48l[_">
-                                                                                                                                              <field name="FIELDNAME">button_fire</field>
+                                                                                                                                            <shadow type="objectList" id="rm7bV9ytIDdZ^;YmGGf^">
+                                                                                                                                              <field name="FIELDNAME">button_right</field>
                                                                                                                                             </shadow>
                                                                                                                                           </value>
-                                                                                                                                          <next>
-                                                                                                                                            <block type="show" id="H{wEtL`I|.8EDnKCn:nC">
-                                                                                                                                              <value name="VALUE">
-                                                                                                                                                <shadow type="objectList" id=".2ucK7Sv=@,=E?`Zh37|">
-                                                                                                                                                  <field name="FIELDNAME">button_left</field>
-                                                                                                                                                </shadow>
-                                                                                                                                              </value>
-                                                                                                                                              <next>
-                                                                                                                                                <block type="show" id="!7DdXNB4MG?[-RLeR4EM">
-                                                                                                                                                  <value name="VALUE">
-                                                                                                                                                    <shadow type="objectList" id="rm7bV9ytIDdZ^;YmGGf^">
-                                                                                                                                                      <field name="FIELDNAME">button_right</field>
-                                                                                                                                                    </shadow>
-                                                                                                                                                  </value>
-                                                                                                                                                </block>
-                                                                                                                                              </next>
-                                                                                                                                            </block>
-                                                                                                                                          </next>
                                                                                                                                         </block>
-                                                                                                                                      </statement>
+                                                                                                                                      </next>
                                                                                                                                     </block>
                                                                                                                                   </next>
                                                                                                                                 </block>
-                                                                                                                              </next>
+                                                                                                                              </statement>
                                                                                                                             </block>
                                                                                                                           </next>
                                                                                                                         </block>
