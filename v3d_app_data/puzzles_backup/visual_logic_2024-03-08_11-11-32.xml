@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2058.6711748108355" scrolly="931.471038692584" scale="0.7959893115433262">
+  <tab name="main" type="MainTab" active="true" scrollx="1516.091820095462" scrolly="892.0316851474377" scale="0.5387568978066389">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="0S8xSmIPXR,?MpVR;PD^">game_over</variable>
       <variable id="+G/)R-$Iz4p/r)+KEj9{">button_left_pressed</variable>
@@ -16,12 +16,12 @@
       <variable id="dg?fMZOHZ|y[3wDIB!^y">button_fire_pressed</variable>
       <variable id="A#n53.:MiPF3Z/zUf@Rf">cam_type</variable>
       <variable id="!{gj7@0xMlwXRyAv?4|O">debug_mode</variable>
-      <variable id="{*Rblr4=~Nl*i/W?0Gp@">invader_blast_pause</variable>
       <variable id="A(2d~5,+sCrK=W[1Em)R">invader_been_hit</variable>
       <variable id="5]:z}Pux*V1v[R8?,^oh">score</variable>
       <variable id="(eJ?Ko:q]]o#b]uQZTlM">turret_exploding</variable>
       <variable id="_A@RD2l5-L6qA]!:7c(2">turret_been hit</variable>
       <variable id="X(;Vt7X$mCsO=O1pL%pl">lives</variable>
+      <variable id="{*Rblr4=~Nl*i/W?0Gp@">invader_blast_pause</variable>
       <variable id="B(}sHQjhR}7!UWy7+%!=">turret_check_x</variable>
       <variable id="gqFgHuyWut?q5^F[r:Ku">fire_pressed</variable>
       <variable id="E%F*Ck.y_BI-xKwP|2oY">invader_fired</variable>
@@ -3300,5 +3300,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="1399.066748046875" viewport-y="51.66667175292969" viewport-w="552.594" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1348.4" viewport-y="43" viewport-w="552.594" viewport-h="373" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>

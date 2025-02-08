@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="699.3333129882812" scrolly="590" scale="1">
+  <tab name="init" type="InitTab" active="false" scrollx="699.3333129882812" scrolly="607.3333129882812" scale="1">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="RAj!P3#8)dxMYNI1G0=5" x="-690" y="-590">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -8,44 +8,44 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2058.6711748108355" scrolly="931.471038692584" scale="0.7959893115433262">
+  <tab name="main" type="MainTab" active="true" scrollx="1211.4254382595245" scrolly="894.6984637118903" scale="0.5387568978066389">
     <variables xmlns="https://developers.google.com/blockly/xml">
-      <variable id="0S8xSmIPXR,?MpVR;PD^">game_over</variable>
-      <variable id="+G/)R-$Iz4p/r)+KEj9{">button_left_pressed</variable>
-      <variable id="[UUOIi{wX7w9*4l$PNnK">button_right_pressed</variable>
-      <variable id="dg?fMZOHZ|y[3wDIB!^y">button_fire_pressed</variable>
-      <variable id="A#n53.:MiPF3Z/zUf@Rf">cam_type</variable>
-      <variable id="!{gj7@0xMlwXRyAv?4|O">debug_mode</variable>
-      <variable id="{*Rblr4=~Nl*i/W?0Gp@">invader_blast_pause</variable>
-      <variable id="A(2d~5,+sCrK=W[1Em)R">invader_been_hit</variable>
-      <variable id="5]:z}Pux*V1v[R8?,^oh">score</variable>
-      <variable id="(eJ?Ko:q]]o#b]uQZTlM">turret_exploding</variable>
-      <variable id="_A@RD2l5-L6qA]!:7c(2">turret_been hit</variable>
-      <variable id="X(;Vt7X$mCsO=O1pL%pl">lives</variable>
-      <variable id="B(}sHQjhR}7!UWy7+%!=">turret_check_x</variable>
-      <variable id="gqFgHuyWut?q5^F[r:Ku">fire_pressed</variable>
-      <variable id="E%F*Ck.y_BI-xKwP|2oY">invader_fired</variable>
-      <variable id="_;msn}sJOF,~v.V|VT!z">shot_check_y</variable>
-      <variable id="Ot_qa}_UM:k1kQ*AwNDx">turret_fired</variable>
-      <variable id="}L!KgAAO3%;:k./c(7@T">shot_x</variable>
-      <variable id="5H48d(PbhiapOVr7A9R)">inv_shot_x</variable>
-      <variable id="Wp,Gn,Y.=*rQ)uSBe-=a">inv_dir</variable>
-      <variable id="[v*n[EN~]Q3HBUdbgGa`">shot_y</variable>
-      <variable id="oPE0Ot2p)Hv?6O#x$@go">inv_shot_y</variable>
-      <variable id="gZR3?ehQs6%w)?emuNI6">increasing _score</variable>
-      <variable id="qxOFF(-4C[jWEu9O5_Oi">pew_sound</variable>
-      <variable id="3!4p$!iuFT#wigT1F6S`">explosion_sound</variable>
-      <variable id="F@*s`g;rO^ZZnx`pJQu*">boom_sound</variable>
-      <variable id="SqsQac+:}8N?U7+`/09~">inv_x</variable>
-      <variable id="pRc-~rmlPY_[N:aT^$}~">inv_y</variable>
+      <variable id="5]:z}Pux*V1v[R8?,^oh" type="">score</variable>
+      <variable id="0S8xSmIPXR,?MpVR;PD^" type="">game_over</variable>
+      <variable id="+G/)R-$Iz4p/r)+KEj9{" type="">button_left_pressed</variable>
+      <variable id="[UUOIi{wX7w9*4l$PNnK" type="">button_right_pressed</variable>
+      <variable id="dg?fMZOHZ|y[3wDIB!^y" type="">button_fire_pressed</variable>
+      <variable id="A#n53.:MiPF3Z/zUf@Rf" type="">cam_type</variable>
+      <variable id="!{gj7@0xMlwXRyAv?4|O" type="">debug_mode</variable>
+      <variable id="{*Rblr4=~Nl*i/W?0Gp@" type="">invader_blast_pause</variable>
+      <variable id="A(2d~5,+sCrK=W[1Em)R" type="">invader_been_hit</variable>
+      <variable id="(eJ?Ko:q]]o#b]uQZTlM" type="">turret_exploding</variable>
+      <variable id="_A@RD2l5-L6qA]!:7c(2" type="">turret_been hit</variable>
+      <variable id="X(;Vt7X$mCsO=O1pL%pl" type="">lives</variable>
+      <variable id="B(}sHQjhR}7!UWy7+%!=" type="">turret_check_x</variable>
+      <variable id="gqFgHuyWut?q5^F[r:Ku" type="">fire_pressed</variable>
+      <variable id="E%F*Ck.y_BI-xKwP|2oY" type="">invader_fired</variable>
+      <variable id="_;msn}sJOF,~v.V|VT!z" type="">shot_check_y</variable>
+      <variable id="Ot_qa}_UM:k1kQ*AwNDx" type="">turret_fired</variable>
+      <variable id="}L!KgAAO3%;:k./c(7@T" type="">shot_x</variable>
+      <variable id="5H48d(PbhiapOVr7A9R)" type="">inv_shot_x</variable>
+      <variable id="Wp,Gn,Y.=*rQ)uSBe-=a" type="">inv_dir</variable>
+      <variable id="[v*n[EN~]Q3HBUdbgGa`" type="">shot_y</variable>
+      <variable id="oPE0Ot2p)Hv?6O#x$@go" type="">inv_shot_y</variable>
+      <variable id="gZR3?ehQs6%w)?emuNI6" type="">increasing _score</variable>
+      <variable id="qxOFF(-4C[jWEu9O5_Oi" type="">pew_sound</variable>
+      <variable id="3!4p$!iuFT#wigT1F6S`" type="">explosion_sound</variable>
+      <variable id="F@*s`g;rO^ZZnx`pJQu*" type="">boom_sound</variable>
+      <variable id="SqsQac+:}8N?U7+`/09~" type="">inv_x</variable>
+      <variable id="pRc-~rmlPY_[N:aT^$}~" type="">inv_y</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_callnoreturn" id="PVDG+IVaIy{Fy4S:,^[;" x="-830" y="-1630">
-      <mutation name="initialize"></mutation>
-    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="text" id="JPOANNBzuIZ/8Ht]5vE@" x="-310" y="-1630">
       <field name="TEXT">Invader by Brian Kumanchik started 7/9/2021</field>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="a!;tmE;#,ZRU^3h+0iOB" x="-830" y="-1570">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_callnoreturn" id="PVDG+IVaIy{Fy4S:,^[;" x="-830" y="-1570">
+      <mutation name="initialize"/>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="a!;tmE;#,ZRU^3h+0iOB" x="-830" y="-1530">
       <field name="NAME">initialize</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
@@ -152,7 +152,7 @@
                                                             </shadow>
                                                           </value>
                                                           <value name="VALUE2">
-                                                            <shadow type="text" id="iozO`z;uq%{dtMEg,q5K">
+                                                            <shadow type="text">
                                                               <field name="TEXT">Hello, Verge!</field>
                                                             </shadow>
                                                             <block type="variables_get" id="}~_OqvbtG0Y.L7RGb;hn">
@@ -192,10 +192,10 @@
                                                                       </value>
                                                                       <next>
                                                                         <block type="procedures_callnoreturn" id=":CP`*)gbnuh2|rkAP$S!">
-                                                                          <mutation name="animate_move_invader"></mutation>
+                                                                          <mutation name="animate_move_invader"/>
                                                                           <next>
                                                                             <block type="procedures_callnoreturn" id="W!~K!,soe2O=q!?0gfB*">
-                                                                              <mutation name="invader_fire"></mutation>
+                                                                              <mutation name="invader_fire"/>
                                                                               <next>
                                                                                 <block type="variables_set" id="oy2TI(JX=ZBVQdqzOQi}">
                                                                                   <field name="VAR" id="SqsQac+:}8N?U7+`/09~">inv_x</field>
@@ -451,7 +451,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="6qm=M2p`Y;TZsAFul:bK" inline="false" x="-310" y="-1530">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="6qm=M2p`Y;TZsAFul:bK" x="-310" y="-1530">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -543,7 +543,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="r2fR!ekvZq^{-3h!2K*c" inline="false" x="170" y="-1530">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="r2fR!ekvZq^{-3h!2K*c" x="170" y="-1530">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -551,7 +551,7 @@
       <field name="MIDDLE_BUTTON">TRUE</field>
       <field name="RIGHT_BUTTON">TRUE</field>
       <value name="VALUE">
-        <shadow type="objectList" id="DpM^(2m?xXbi@cB`h:;D">
+        <shadow type="objectList">
           <field name="FIELDNAME">&lt;none&gt;</field>
         </shadow>
         <block type="objectList" id="0|6f|!rQOGSa3esXXUB}">
@@ -729,7 +729,10 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="mL*QwH/Xe(K|;l]zgA50" inline="false" x="-2310" y="-510">
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="1?Q/UV5uGsxL-wZ8p{T/" x="-475" y="-1093">
+      <field name="VAR" id="5]:z}Pux*V1v[R8?,^oh">score</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="mL*QwH/Xe(K|;l]zgA50" x="-2310" y="-510">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <value name="VALUE">
@@ -1036,7 +1039,7 @@
                                                           </statement>
                                                           <next>
                                                             <block type="procedures_callnoreturn" id="lfV_+;Ug4Wy%^Qb[9l%P">
-                                                              <mutation name="animate_move_invader"></mutation>
+                                                              <mutation name="animate_move_invader"/>
                                                             </block>
                                                           </next>
                                                         </block>
@@ -1773,7 +1776,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="x;JO^ena0X)*KJ5Z^_=g" inline="false" x="-2310" y="-70">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="x;JO^ena0X)*KJ5Z^_=g" x="-2310" y="-70">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <value name="VALUE">
@@ -1892,7 +1895,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="ueP{Y8(7]bFOIfIe0=}!" inline="false" x="-2310" y="310">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="ueP{Y8(7]bFOIfIe0=}!" x="-2310" y="310">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
       <field name="X_RAY">FALSE</field>
       <field name="DOUBLE_CLICK">FALSE</field>
@@ -2370,7 +2373,7 @@
                                   </value>
                                   <next>
                                     <block type="procedures_callnoreturn" id="SnIUw]k13SBuLIct26OF">
-                                      <mutation name="invader_fire"></mutation>
+                                      <mutation name="invader_fire"/>
                                     </block>
                                   </next>
                                 </block>
@@ -2524,7 +2527,7 @@
                                               </value>
                                               <next>
                                                 <block type="procedures_callnoreturn" id="npC9sH;umnQtVIp2EE68">
-                                                  <mutation name="inv_exp_reset"></mutation>
+                                                  <mutation name="inv_exp_reset"/>
                                                 </block>
                                               </next>
                                             </block>
@@ -2630,7 +2633,7 @@
                     </shadow>
                   </value>
                   <value name="VALUE2">
-                    <shadow type="text" id="~pPu7Dg~}g6bz$5d}s[]">
+                    <shadow type="text">
                       <field name="TEXT">Hello, Verge!</field>
                     </shadow>
                     <block type="variables_get" id="AqcRmG:yPA.@b=/uGzVf">
@@ -2699,7 +2702,7 @@
                                       </value>
                                       <next>
                                         <block type="procedures_callnoreturn" id="*9kQK/HbuLg;(nYvCSb0">
-                                          <mutation name="animate_move_invader"></mutation>
+                                          <mutation name="animate_move_invader"/>
                                           <next>
                                             <block type="setTimeout" id="xMgwI@bqC:dwOMfYK]J=">
                                               <value name="VALUE">
@@ -2709,7 +2712,7 @@
                                               </value>
                                               <statement name="DO">
                                                 <block type="procedures_callnoreturn" id="^Gv9-oW5O1x*v0?9at5C">
-                                                  <mutation name="invader_fire"></mutation>
+                                                  <mutation name="invader_fire"/>
                                                 </block>
                                               </statement>
                                             </block>
@@ -2849,7 +2852,7 @@
                                           </value>
                                           <next>
                                             <block type="procedures_callnoreturn" id="fx:Uhz1=qO(L|BLQ=OuZ">
-                                              <mutation name="turret_explosion_anim"></mutation>
+                                              <mutation name="turret_explosion_anim"/>
                                             </block>
                                           </next>
                                         </block>
@@ -2944,7 +2947,7 @@
                     </shadow>
                   </value>
                   <value name="VALUE2">
-                    <shadow type="text" id="J@KF_A+HyK)M{):=SL[a">
+                    <shadow type="text">
                       <field name="TEXT">Hello, Verge!</field>
                     </shadow>
                     <block type="variables_get" id="%C^A_r.=?5A[OC?w430~">
@@ -3287,7 +3290,7 @@
                       </value>
                       <next>
                         <block type="procedures_callnoreturn" id="0h}BZ9H{Af7T:mZxO?ZE">
-                          <mutation name="initialize"></mutation>
+                          <mutation name="initialize"/>
                         </block>
                       </next>
                     </block>
@@ -3300,5 +3303,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="1399.066748046875" viewport-y="51.66667175292969" viewport-w="552.594" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1348.4" viewport-y="43" viewport-w="552.594" viewport-h="373" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>

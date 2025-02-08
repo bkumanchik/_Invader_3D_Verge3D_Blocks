@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2058.6711748108355" scrolly="931.471038692584" scale="0.7959893115433262">
+  <tab name="main" type="CommonTab" active="true" scrollx="2122.414992604892" scrolly="449.2110461519758" scale="0.7959893115433262">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="0S8xSmIPXR,?MpVR;PD^">game_over</variable>
       <variable id="+G/)R-$Iz4p/r)+KEj9{">button_left_pressed</variable>
@@ -1799,6 +1799,39 @@
               <field name="BOOL">FALSE</field>
             </block>
           </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id="iW@lOPB:fDj,K`2-cNi." x="-1850" y="-90">
+      <statement name="DO">
+        <block type="controls_if" id="_%+tUU$-|%[^JTY}3S7u">
+          <value name="IF0">
+            <block type="getGamepadProp" id="~fV;IB.1.~4hk1C.B3y[">
+              <field name="PROPERTY">BUTTON</field>
+              <field name="CONTROL_INDEX">0</field>
+              <value name="INDEX">
+                <shadow type="math_number" id="gIHa3[L^b4~.38,;=P?z">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="applyObjLocalTransform" id="}:?F(AC[Xcaw%UR=q!~K">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
+              <field name="MODE">position</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="{%Th/[645[-^`P|1qMcV">
+                  <field name="FIELDNAME">turret_root</field>
+                </shadow>
+              </value>
+              <value name="X">
+                <block type="math_number" id="hl9.:Z9HTJnJXn=k.*Y@">
+                  <field name="NUM">0.1</field>
+                </block>
+              </value>
+            </block>
+          </statement>
         </block>
       </statement>
     </block>

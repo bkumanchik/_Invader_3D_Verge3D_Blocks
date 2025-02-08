@@ -8,8 +8,9 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2058.6711748108355" scrolly="931.471038692584" scale="0.7959893115433262">
+  <tab name="main" type="MainTab" active="true" scrollx="1211.4254382595245" scrolly="894.6984637118903" scale="0.5387568978066389">
     <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="5]:z}Pux*V1v[R8?,^oh">score</variable>
       <variable id="0S8xSmIPXR,?MpVR;PD^">game_over</variable>
       <variable id="+G/)R-$Iz4p/r)+KEj9{">button_left_pressed</variable>
       <variable id="[UUOIi{wX7w9*4l$PNnK">button_right_pressed</variable>
@@ -18,7 +19,6 @@
       <variable id="!{gj7@0xMlwXRyAv?4|O">debug_mode</variable>
       <variable id="{*Rblr4=~Nl*i/W?0Gp@">invader_blast_pause</variable>
       <variable id="A(2d~5,+sCrK=W[1Em)R">invader_been_hit</variable>
-      <variable id="5]:z}Pux*V1v[R8?,^oh">score</variable>
       <variable id="(eJ?Ko:q]]o#b]uQZTlM">turret_exploding</variable>
       <variable id="_A@RD2l5-L6qA]!:7c(2">turret_been hit</variable>
       <variable id="X(;Vt7X$mCsO=O1pL%pl">lives</variable>
@@ -39,13 +39,13 @@
       <variable id="SqsQac+:}8N?U7+`/09~">inv_x</variable>
       <variable id="pRc-~rmlPY_[N:aT^$}~">inv_y</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_callnoreturn" id="PVDG+IVaIy{Fy4S:,^[;" x="-830" y="-1630">
-      <mutation name="initialize"></mutation>
-    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="text" id="JPOANNBzuIZ/8Ht]5vE@" x="-310" y="-1630">
       <field name="TEXT">Invader by Brian Kumanchik started 7/9/2021</field>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="a!;tmE;#,ZRU^3h+0iOB" x="-830" y="-1570">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_callnoreturn" id="PVDG+IVaIy{Fy4S:,^[;" x="-830" y="-1570">
+      <mutation name="initialize"></mutation>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="a!;tmE;#,ZRU^3h+0iOB" x="-830" y="-1530">
       <field name="NAME">initialize</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
@@ -728,6 +728,9 @@
           </statement>
         </block>
       </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="1?Q/UV5uGsxL-wZ8p{T/" x="-475" y="-1093">
+      <field name="VAR" id="5]:z}Pux*V1v[R8?,^oh">score</field>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="mL*QwH/Xe(K|;l]zgA50" inline="false" x="-2310" y="-510">
       <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
@@ -3300,5 +3303,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="1399.066748046875" viewport-y="51.66667175292969" viewport-w="552.594" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1348.4" viewport-y="43" viewport-w="552.594" viewport-h="373" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
